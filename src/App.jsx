@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Github, Linkedin, Mail, ExternalLink, Download } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, ExternalLink} from 'lucide-react';
 import profileImage from './images/profile.png';
 import hochschule from './images/clients/hochschule.jpeg';
 import lt from './images/clients/L&T.jpeg';
