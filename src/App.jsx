@@ -264,7 +264,7 @@ const featuredProjects = [
 
             <div className="grid md:grid-cols-3 gap-6 mt-16">
               {[
-                { label: "Projects Completed", value: "25+" },
+                { label: "Projects Completed", value: "10+" },
                 { label: "Happy Clients", value: "4+" },
                 { label: "Years Experience", value: "6+" }
               ].map((stat, idx) => (
