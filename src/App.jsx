@@ -10,6 +10,7 @@ import ltproj from './images/architecture/ltproject.png';
 import navistarproj from './images/architecture/navistarproject.png';
 import tampnetproj from './images/architecture/tampnetproject.png';
 import digitalcompeteeu from './certificates/digital_compete_eu.pdf';
+import datacampdeass from './certificates/digital_compete_eu.pdf'
 import emailjs from '@emailjs/browser';
 
 export default function Portfolio() {
@@ -549,6 +550,20 @@ const featuredProjects = [
             {resumeTab === 'certifications' && (
               <div className="space-y-6">
                 {[
+                  {
+                    name: "Data Engineer",
+                    issuer: "Datacamp",
+                    date: "2026",
+                    link: datacampde,
+                    isPdf: true
+                  },
+                  {
+                    name: "Data Engineer Associate",
+                    issuer: "Datacamp",
+                    date: "2026",
+                    link: datacampdeass,
+                    isPdf: true
+                  },
                   {
                     name: "Azure Databricks work load automation module",
                     issuer: "Microsoft Azure",
