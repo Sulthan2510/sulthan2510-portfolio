@@ -10,7 +10,7 @@ import ltproj from './images/architecture/ltproject.png';
 import navistarproj from './images/architecture/navistarproject.png';
 import tampnetproj from './images/architecture/tampnetproject.png';
 import digitalcompeteeu from './certificates/digital_compete_eu.pdf';
-import datacampdeass from './certificates/digital_compete_eu.pdf'
+import datacampdeass from './certificates/DEA0012510788623.pdf'
 import emailjs from '@emailjs/browser';
 
 export default function Portfolio() {
